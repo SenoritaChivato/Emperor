@@ -1,25 +1,36 @@
+body {background: #E0E0E0;
+}
+
+
+
 .content {
-  max-width: 900px;
+  max-width: 780px;
   margin:auto;
   text-align: center;
+  font-color: black;
 }
- 
-.navigation-bar {
-      padding-top: 30px;
+
+
+.header {
+  padding-top: 80px;
+}
+
+.navbar {
+      padding-top: 10px;
       text-align: center;
       margin:0px;
       list-style: none;
       float: center;
       display: inline-block;
+      background-color: black;
      } 
 
 .nav li {
       display: inline;
-      border: 1px solid #ccc;
-      border-width: 1px 0px;
     }
+
   .nav a {
-    color: black;
+    color: white;
     display: inline-block;
 
    }
@@ -37,7 +48,6 @@
 .about-title, h1 {
   font-size: 60px;
   text-align: center;
-  padding-top: 20px;
 }
 
 .about-text {
