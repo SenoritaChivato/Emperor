@@ -1,4 +1,5 @@
-body {background: #E0E0E0;
+body {
+  background: #F5F5F5;
 }
 
 
@@ -7,13 +8,22 @@ body {background: #E0E0E0;
   max-width: 780px;
   margin:auto;
   text-align: center;
-  font-color: black;
+  font-family: 'Droid Sans', serif;
 }
 
 
-.header {
-  padding-top: 80px;
-}
+h1 {
+      color: white;
+      font-size: 100px;
+      margin-top:220px;
+      margin-bottom: 10px;
+      color:#FF7518;
+    }
+
+    h3 {
+      font-size:30px;
+      color: black;
+    }
 
 .navbar {
       padding-top: 10px;
@@ -32,27 +42,31 @@ body {background: #E0E0E0;
   .nav a {
     color: white;
     display: inline-block;
+    font-style: bold;
 
    }
 
 <!--HOME-->
 
- .home-title, h1 {
-      font-size: 150px;
-      margin-top:30px;
-      margin-bottom: 10px;
+;
    }
 
 <!--ABOUT-->
 
-.about-title, h1 {
-  font-size: 60px;
-  text-align: center;
-}
+
+.about-title {
+  margin-top: auto;
+  text-align: left;
+  color: #FF7518;
+  }
 
 .about-text {
   text-align: left;
-}
+  background: black;
+  padding: 40px;
+  margin-top: 150px;
+  color: white;
+  }
 
 <!--THE WORK-->
 
