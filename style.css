@@ -1,49 +1,49 @@
 body {
-  background: #F5F5F5;
+  background: #F0F8FF;
 }
 
 
-
-.content {
-  max-width: 780px;
-  margin:auto;
-  text-align: center;
+.container {
+  max-width: 680px;
+  text-align: left;
   font-family: 'Droid Sans', serif;
 }
 
 
-h1 {
+  h1 {
       color: white;
       font-size: 100px;
-      margin-top:220px;
+      margin-top: 80px;
       margin-bottom: 10px;
       color:#FF7518;
+      text-align: center;
+    }
+
+    h2 {
+    margin-top: 80px;
     }
 
     h3 {
       font-size:30px;
       color: black;
+      padding-bottom:20px;
+      text-align: center;
     }
 
 .navbar {
-      padding-top: 10px;
-      text-align: center;
-      margin:0px;
+       text-align: center;
       list-style: none;
-      float: center;
-      display: inline-block;
+      font: white;
       background-color: black;
      } 
 
 .nav li {
-      display: inline;
+      display: inline-block;
     }
 
-  .nav a {
-    color: white;
-    display: inline-block;
-    font-style: bold;
-
+  .nav li a {
+    font: white;
+    font-weight: bold;
    }
 
 <!--HOME-->
@@ -52,27 +52,40 @@ h1 {
    }
 
 <!--ABOUT-->
-
-
-.about-title {
-  margin-top: auto;
-  text-align: left;
-  color: #FF7518;
-  }
-
 .about-text {
-  text-align: left;
-  background: black;
-  padding: 40px;
-  margin-top: 150px;
-  color: white;
-  }
-
+  margin-top:50px;
+}
 <!--THE WORK-->
 
-<!--WRITINGS-->
-
+<!--BLOG-->
+.post {
+  border-bottom: 1px solid black;
 }
+.article {
+  margin-top: 50px;
+  position: relative;
+  display: block;
+}
+
+.bottom-nav {
+  border-bottom: 2px solid;
+  border-top: 1px solid;
+  border-color: black;
+  text-align: center;
+  }
+
+.bottom-nav li a  {
+  list-style: none;
+  display: inline;
+  color: black;
+  padding: 20px;
+}
+
+
 <!--EXTRA-->
 
 <!--CONTACT-->
+h4 {
+  text-align: center;
+
+}
